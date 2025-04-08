@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-preview{
+    width: 350px;
+    margin-top: 23px;
+    border-radius: 25px;
+}
+
+
+.details{
+    margin: 25px;
+}
+
+.tag-btn{
+    padding:5px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+
+.tag-date{
+    margin: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+.heading{
+    margin-bottom: 13px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 17px;
+}
+
+.details-body p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+.dp img{
+    width: 48px;
+}
+
+.profile .name{
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    
+}
